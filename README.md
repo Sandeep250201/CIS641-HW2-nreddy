@@ -21,5 +21,5 @@ I graduated with a CGPA of 8.45 in Computer Science and Engineering from KL Univ
 - *Course Recommendation System*: Developed a system hosted on Google Cloud that analyzes historical data on courses and student performance to recommend suitable courses for students each semester. This project highlights my ability to integrate complex data and provide actionable insights.
 
 ## Favorite Meme
- My favorite meme [here](https://miro.medium.com/v2/resize:fit:600/1*-DTbZDlgOucJbwGZLQDHZQ.jpeg).
+ My favorite meme (https://miro.medium.com/v2/resize:fit:600/1*-DTbZDlgOucJbwGZLQDHZQ.jpeg).
 
