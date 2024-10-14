@@ -5,66 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sandeep Kumar Reddy NReddy's Resume</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            background: linear-gradient(to bottom right, #4a90e2, #50e3c2);
+            color: #333;
+        }
+        .container {
+            background-color: white; 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
         .contact-info { margin-bottom: 20px; }
         .section { margin-bottom: 20px; }
         .section h2 { color: #333399; margin-bottom: 10px; }
         .education, .projects, .skills { margin-left: 20px; }
         ul { padding-left: 20px; }
+        a { color: #007bff; text-decoration: none; } 
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <div class="contact-info">
-        <h1>Sandeep Kumar Reddy NReddy</h1>
-        <p>Email: <a href="mailto:nreddys@mail.gvsu.edu">nreddys@mail.gvsu.edu</a></p>
-        <p>Call me: 616-256-7922</p>
-        <p>Address: 240 MANZANA, CT, NW, Walker, MI 49534</p>
-    </div>
-    <div class="section">
-        <h2>EDUCATION</h2>
-        <p>KL University | Bachelor of Technology: Computer Science Engineering | Hyderabad, Telangana, IN</p>
-        <p>August 2019 – April 2023 | CGPA: 8.4/10.0</p>
-        <ul>
-            <li>Key courses: Database Management Systems, Design Thinking Innovation, Operating Systems, Data Structures, Software Engineering, etc.</li>
-        </ul>
-        <p>Narayana Junior College | Senior School | Hyderabad, Telangana, IN</p>
-        <p>July 2017 – May 2019</p>
-        <ul>
-            <li>Activities: Member of the robotics club, worked on Line Following Robot and Obstacle avoiding robots.</li>
-        </ul>
-        <p>RBVRR Model High School | Secondary School | Kothakota, Telangana, IN</p>
-        <p>June 2017 | CGPA: 9.0/10</p>
-    </div>
-    <div class="section">
-        <h2>PROJECTS</h2>
-        <ul>
-            <li><strong>Portfolio Website</strong> (February 2021): A responsive site showcasing personal projects and professional information using HTML, CSS, and JavaScript.</li>
-            <li><strong>Stock Market Analysis Prediction</strong> (September 2021): Uses pandas and LSTM neural networks for predicting stock performance.</li>
-            <li><strong>Handwritten Digit Recognition</strong> (January 2022): Utilizes CNNs and MNIST datasets for recognizing handwritten digits in various applications.</li>
-            <li><strong>Online Food Ordering System</strong> (August 2022): Streamlines food ordering with a real-time user interface, developed using JavaScript, PHP, jQuery, HTML, and CSS.</li>
-        </ul>
-    </div>
-    <div class="section">
-        <h2>PROJECT OVERVIEW - TEAM MANAGEMENT SYSTEN</h2>
-        <ul>
-            <li><strong>Purpose:</strong> A web app for teams to collaborate, manage tasks, and track progress.</li>
-            <li><strong>Key Features:</strong> Team registration, member management, task organization, and progress tracking.</li>
-            <li><strong>Target Audience:</strong> Small to mid-sized teams.</li>
-            <li><strong>Main Goal:</strong> Improve communication, transparency, and project efficiency through a centralized dashboard.</li>
-        </ul>
-    </div>
-    <div class="section">
-        <h2>SKILLS</h2>
-        <ul>
-            <li>Programming Languages: C, Java, Python, HTML, CSS, SQL</li>
-            <li>Tools: VSCode, PyCharm, MySQL, Anaconda, Canava, Jupyter, GIT</li>
-            <li>Soft Skills: Initiative, Critical Thinking, Leadership</li>
-        </ul>
-        <p>Languages: Fluent in English, Native Telugu speaker, conversational Hindi</p>
-    </div>
-    <div class="section">
-        <h2>INTERESTS</h2>
-        <p>Hobbies: Reading, Sports</p>
+    <div class="container"> 
+        <div class="contact-info">
+            <h1>Sandeep Kumar Reddy NReddy</h1>
+            <p>Email: <a href="mailto:nreddys@mail.gvsu.edu">nreddys@mail.gvsu.edu</a></p>
+            <p>Call me: 616-256-7922</p>
+            <p>Address: 240 MANZANA, CT, NW, Walker, MI 49534</p>
+        </div>
+        <div class="section">
+            <h2>EDUCATION</h2>
+            <p>KL University | Bachelor of Technology: Computer Science Engineering | Hyderabad, Telangana, IN</p>
+            <p>August 2019 – April 2023 | CGPA: 8.4/10.0</p>
+            <ul>
+                <li>Key courses: Database Management Systems, Design Thinking Innovation, Operating Systems, Data Structures, Software Engineering, etc.</li>
+            </ul>
+            <p>Narayana Junior College | Senior School | Hyderabad, Telangana, IN</p>
+            <p>July 2017 – May 2019</p>
+            <ul>
+                <li>Activities: Member of the robotics club, worked on Line Following Robot and Obstacle avoiding robots.</li>
+            </ul>
+            <p>RBVRR Model High School | Secondary School | Kothakota, Telangana, IN</p>
+            <p>June 2017 | CGPA: 9.0/10</p>
+        </div>
+        <div class="section">
+            <h2>PROJECTS</h2>
+            <ul>
+                <li><strong>Portfolio Website</strong> (February 2021): A responsive site showcasing personal projects and professional information using HTML, CSS, and JavaScript.</li>
+                <li><strong>Stock Market Analysis Prediction</strong> (September 2021): Uses pandas and LSTM neural networks for predicting stock performance.</li>
+                <li><strong>Handwritten Digit Recognition</strong> (January 2022): Utilizes CNNs and MNIST datasets for recognizing handwritten digits in various applications.</li>
+                <li><strong>Online Food Ordering System</strong> (August 2022): Streamlines food ordering with a real-time user interface, developed using JavaScript, PHP, jQuery, HTML, and CSS.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>PROJECT OVERVIEW - TEAM MANAGEMENT SYSTEM</h2>
+            <ul>
+                <li><strong>Purpose:</strong> A web app for teams to collaborate, manage tasks, and track progress.</li>
+                <li><strong>Key Features:</strong> Team registration, member management, task organization, and progress tracking.</li>
+                <li><strong>Target Audience:</strong> Small to mid-sized teams.</li>
+                <li><strong>Main Goal:</strong> Improve communication, transparency, and project efficiency through a centralized dashboard.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>SKILLS</h2>
+            <ul>
+                <li>Programming Languages: C, Java, Python, HTML, CSS, SQL</li>
+                <li>Tools: VSCode, PyCharm, MySQL, Anaconda, Canva, Jupyter, GIT</li>
+                <li>Soft Skills: Initiative, Critical Thinking, Leadership</li>
+            </ul>
+            <p>Languages: Fluent in English, Native Telugu speaker, conversational Hindi</p>
+        </div>
+        <div class="section">
+            <h2>INTERESTS</h2>
+            <p>Hobbies: Reading, Sports</p>
+        </div>
     </div>
 </body>
 </html>
